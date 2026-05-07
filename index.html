@@ -1369,7 +1369,7 @@ async function logToAnalytics(signName, confidence) {
       });
       updateAnalyticsDot('active');
     } catch (err) {
-      console.warn('[SignBridge Analytics] POST failed:', err.message);
+      console.warn('[SpeakAble Analytics] POST failed:', err.message);
       updateAnalyticsDot('warn');
     }
   }
@@ -1385,7 +1385,7 @@ function exportLog() {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `signbridge-session-${state.sessionId}.json`;
+  a.download = `speakable-session-${state.sessionId}.json`;
   a.click();
   URL.revokeObjectURL(url);
   showToast('✓ Log exported: ' + state.analyticsLog.length + ' events', 'rgba(16,185,129,0.4)');
@@ -1561,7 +1561,7 @@ function initMediaPipe() {
   }).catch(err => {
     setStatus('cam-dot', 'cam-status', 'error', 'CAMERA ERROR');
     showToast('⚠ Camera access denied. Please allow camera permission.', 'rgba(244,63,94,0.5)');
-    console.error('[SignBridge Camera]', err);
+    console.error('[SpeakAble Camera]', err);
   });
 }
 
