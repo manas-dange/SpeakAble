@@ -52,6 +52,11 @@ No hardware required.
 
 <img width="1104" height="756" alt="Screenshot 2026-05-07 at 10 25 49 PM" src="https://github.com/user-attachments/assets/e4f906bb-2856-4788-aaaf-1b338d1a1600" />
 
+<img width="1470" height="879" alt="Screenshot 2026-05-07 at 10 31 17 PM" src="https://github.com/user-attachments/assets/31c5fee6-b942-4f69-8d93-7cccb570f6ae" />
+
+<img width="1470" height="879" alt="Screenshot 2026-05-07 at 10 31 28 PM" src="https://github.com/user-attachments/assets/9a632f4b-b268-4373-ac80-d6fa17ac533c" />
+
+
 ---
 
 ## Example Commands
